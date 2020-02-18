@@ -11,8 +11,11 @@ const Navbar = () => {
     {/* Ниже мы используем 2 класса для css. Если бы класс использзовался 
     глобально для всего дока, было бы classMame = "item active"  {'${s.item} ${s.active}'}  */}
     <div className ={s.item}>
-      <NavLink to = "/dialogs" activeClassName={s.active}>Massenges</NavLink>
+      <NavLink to = "/dialogs" activeClassName={s.active}>Messages</NavLink>
     </div>
+        <div className ={s.item}>
+            <NavLink to = "/users" activeClassName={s.active}>Users</NavLink>
+        </div>
     <div className ={s.item}>
     <NavLink to = "/news" activeClassName={s.active}>News</NavLink>
     </div>
