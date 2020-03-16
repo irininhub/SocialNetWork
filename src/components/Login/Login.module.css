@@ -1,0 +1,9 @@
+.form{
+    padding: 0 10px;
+}
+
+.formError{
+    border: indianred 1px solid;
+    padding: 5px;
+    color: indianred;
+}

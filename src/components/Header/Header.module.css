@@ -1,19 +1,19 @@
-.header{
+.header {
     grid-area: h;
     background-color: rgb(59, 24, 92);
-    }
+}
 
-
-    .header img { 
-      width: 49px;
-    }
-
+.header img {
+    width: 49px;
+}
 
 .loginBLock {
     float: right;
+    color: honeydew;
+    padding: 7px
 }
 
-.loginBLock a{
+.loginBLock a {
     color: whitesmoke;
 }
 

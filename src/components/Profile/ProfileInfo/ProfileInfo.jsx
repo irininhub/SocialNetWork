@@ -1,6 +1,8 @@
 import React from 'react';
 import s from './ProfileInfo.module.css';
-import Preloader from "../../Preloader/Preloader";
+import Preloader from "../../../common/Preloader/Preloader";
+import Status from "./Status";
+
 
 
 const ProfileInfo = (props) => {
@@ -9,18 +11,22 @@ const ProfileInfo = (props) => {
        return <Preloader/>
     }
     return <div className={s.content}>
-        <div>
-            <img src="http://www.ejin.ru/wp-content/uploads/2017/09/10-611.jpg"/>
-        </div>
+        {/*<div>*/}
+        {/*    <img src="http://www.ejin.ru/wp-content/uploads/2017/09/10-611.jpg"/>*/}
+        {/*</div>*/}
 
         <div className={s.block}>
-            <img src={props.profile.photos.large} className={s.avatar}/>
-           <div>{props.profile.aboutMe}</div>
+            <div className={s.avatar}>
+                <img src={props.profile.photos.large} /></div>
+            <Status status={props.status} updateStatus = {props.updateStatus}/>
+
         </div>
     </div>
 
 
-}
+};
 
 
 export default ProfileInfo;
+
+
