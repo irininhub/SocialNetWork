@@ -2,10 +2,11 @@ import React from 'react'
 import s from "./Users.module.css";
 import photo from '../../assets/images/204-2040760_contact-starwars-user-default-yoda-comments-users-icon.png'
 import {NavLink} from "react-router-dom";
+import Paginator from "../../common/Paginator/Paginator";
 
 
 
-const Users = (props) => {
+const Users = ({currentPage,totalUsersCount,pageSize,onPageChanged, ...props}) => {
     let pagesCount = Math.ceil(props.totalUsersCount / props.pageSize);
     let pages = [];
     for (let i = 1; i <= pagesCount; i++) {
@@ -13,16 +14,10 @@ const Users = (props) => {
     }
 
     return <div className={s.users}>
-        <div>
-            {pages.map((p, i) => {
-                return <span className={props.currentPage === p && s.selectedPage}
-                             key={i}
-                             onClick={(e) => {
-                                 props.onPageChanged(p)
-                             }}>{p} </span>
-
-            })}
-        </div>
+        <Paginator currentPage={currentPage}
+                   totalUsersCount={totalUsersCount}
+                   pageSize={pageSize}
+                   onPageChanged={onPageChanged}/>
         {props.users.map(u => <div key={u.id} className={s.user}>
             <div>
                 <NavLink to='/profile'>
