@@ -2,16 +2,5 @@
     padding: 15px;
 }
 
-.user {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 15px;
-}
 
-.userPhoto {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-}
 
