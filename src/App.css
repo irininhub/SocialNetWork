@@ -3,18 +3,35 @@
   width: 1200px;
   margin: 0 auto;
 
-  grid-template-rows: 50px 1fr;
+  grid-template-rows: 55px 1fr;
   grid-template-columns: 2fr 10fr;
-  grid-template-areas:  
+  grid-template-areas:
   "h h"
   "n c";
-
 }
 
 .app-wrapper-content{
   grid-area: c;
   background-color: rgba(81, 81, 145, 0.33);
+  margin: 0 8px 8px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .2), 0 0 40px rgba(0, 0, 0, .1) inset;
+  min-height: 92vh;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

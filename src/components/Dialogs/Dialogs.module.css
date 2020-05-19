@@ -1,20 +1,28 @@
 .dialogs {
     display: grid;
-    grid-template-columns: 2fr 10fr;
-}
-/*.dialog{*/
+    grid-template-columns: 3fr 10fr;
+    grid-template-rows: 300px;
 
-/*}*/
+
+}
+.dialog{
+    padding: 10px;
+}
 
 .dialogsItems{
-    padding: 10px;
+    background-color: wheat;
+
+    margin: 10px;
+}
+.linkDialog{
+    text-decoration: none;
 
 }
-
 .messages{
     padding: 10px;
+    margin: 0 0 10px 0;
 }
 
 .message{
-
+    padding: 10px;
 }
