@@ -1,33 +1,33 @@
 {
   "files": {
     "main.css": "/SocialNetWork/static/css/main.81f5ebdb.chunk.css",
-    "main.js": "/SocialNetWork/static/js/main.2f18c89e.chunk.js",
-    "main.js.map": "/SocialNetWork/static/js/main.2f18c89e.chunk.js.map",
-    "runtime-main.js": "/SocialNetWork/static/js/runtime-main.f57a402a.js",
-    "runtime-main.js.map": "/SocialNetWork/static/js/runtime-main.f57a402a.js.map",
-    "static/js/2.e4a5eb33.chunk.js": "/SocialNetWork/static/js/2.e4a5eb33.chunk.js",
-    "static/js/2.e4a5eb33.chunk.js.map": "/SocialNetWork/static/js/2.e4a5eb33.chunk.js.map",
+    "main.js": "/SocialNetWork/static/js/main.2a6e3561.chunk.js",
+    "main.js.map": "/SocialNetWork/static/js/main.2a6e3561.chunk.js.map",
+    "runtime-main.js": "/SocialNetWork/static/js/runtime-main.cce150ca.js",
+    "runtime-main.js.map": "/SocialNetWork/static/js/runtime-main.cce150ca.js.map",
+    "static/js/2.15d70883.chunk.js": "/SocialNetWork/static/js/2.15d70883.chunk.js",
+    "static/js/2.15d70883.chunk.js.map": "/SocialNetWork/static/js/2.15d70883.chunk.js.map",
     "static/css/3.8e1af24d.chunk.css": "/SocialNetWork/static/css/3.8e1af24d.chunk.css",
     "static/js/3.9e9a2d09.chunk.js": "/SocialNetWork/static/js/3.9e9a2d09.chunk.js",
     "static/js/3.9e9a2d09.chunk.js.map": "/SocialNetWork/static/js/3.9e9a2d09.chunk.js.map",
     "static/css/4.8c852f7e.chunk.css": "/SocialNetWork/static/css/4.8c852f7e.chunk.css",
-    "static/js/4.62dcefb1.chunk.js": "/SocialNetWork/static/js/4.62dcefb1.chunk.js",
-    "static/js/4.62dcefb1.chunk.js.map": "/SocialNetWork/static/js/4.62dcefb1.chunk.js.map",
+    "static/js/4.919fc420.chunk.js": "/SocialNetWork/static/js/4.919fc420.chunk.js",
+    "static/js/4.919fc420.chunk.js.map": "/SocialNetWork/static/js/4.919fc420.chunk.js.map",
     "index.html": "/SocialNetWork/index.html",
-    "precache-manifest.6307c2a2f4d99037f85fea26362966db.js": "/SocialNetWork/precache-manifest.6307c2a2f4d99037f85fea26362966db.js",
+    "precache-manifest.e8a8da35eba17e5c42b417ca4c230b13.js": "/SocialNetWork/precache-manifest.e8a8da35eba17e5c42b417ca4c230b13.js",
     "service-worker.js": "/SocialNetWork/service-worker.js",
     "static/css/3.8e1af24d.chunk.css.map": "/SocialNetWork/static/css/3.8e1af24d.chunk.css.map",
     "static/css/4.8c852f7e.chunk.css.map": "/SocialNetWork/static/css/4.8c852f7e.chunk.css.map",
     "static/css/main.81f5ebdb.chunk.css.map": "/SocialNetWork/static/css/main.81f5ebdb.chunk.css.map",
-    "static/js/2.e4a5eb33.chunk.js.LICENSE": "/SocialNetWork/static/js/2.e4a5eb33.chunk.js.LICENSE",
+    "static/js/2.15d70883.chunk.js.LICENSE": "/SocialNetWork/static/js/2.15d70883.chunk.js.LICENSE",
     "static/media/204-2040760_contact-starwars-user-default-yoda-comments-users-icon.png": "/SocialNetWork/static/media/204-2040760_contact-starwars-user-default-yoda-comments-users-icon.4b2742fa.png",
     "static/media/preloader.svg": "/SocialNetWork/static/media/preloader.b6a3ac27.svg",
     "static/media/users-selector": "/SocialNetWork/static/media/users-selector.a03d99f7.bin"
   },
   "entrypoints": [
-    "static/js/runtime-main.f57a402a.js",
-    "static/js/2.e4a5eb33.chunk.js",
+    "static/js/runtime-main.cce150ca.js",
+    "static/js/2.15d70883.chunk.js",
     "static/css/main.81f5ebdb.chunk.css",
-    "static/js/main.2f18c89e.chunk.js"
+    "static/js/main.2a6e3561.chunk.js"
   ]
 }
